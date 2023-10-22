@@ -1,0 +1,422 @@
+body * {
+  // border: 1px solid red;
+}
+
+@media screen and (min-width: 992px) {
+  .nav-item {
+    line-height: 80px;
+  }
+}
+
+@media (max-width: 992px) {
+  #navbarNavDropdown {
+    background-color: black;
+  }
+
+}
+@media screen and (max-width: 1000px) {
+  .nav{
+    
+    #offcanvasnoned {
+      display: block !important;
+    }
+    #offcanvasdisplayed{
+      display: none !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+  }
+  .blogdetails{
+    .post{
+      margin-left: 80px !important;
+    }
+    .topcontainer{
+      width: 100% !important;
+      margin-left: 0px !important;
+    }
+  }
+  .aboutcard{
+    width: auto;
+    height: auto;
+  }
+  .aboutcard2{
+    padding-bottom: 50px !important;
+  }
+  .mainheader {
+    h1 {
+      font-size: 50px !important;
+    }
+  }
+  .wrap4 {
+    img {
+      width: 300px !important;
+    }
+  }
+  .wrap2 {
+    margin-top: 80px;
+  }
+  .rightpro {
+    display: none !important;
+  }
+  .aaa {
+    display: block !important;
+  }
+  
+}
+@media screen and (max-width: 1400px) {
+  .rightpro {
+    display: none !important;
+  }
+  .aaa {
+    display: block !important;
+  }
+  .bestcardfour {
+    width: 300px !important;
+    height: 200px !important;
+  }
+}
+@media screen and (min-width: 840) {
+  .aaa {
+    transform: translateY(200px) !important ;
+  }
+
+}
+@media screen and (max-width: 890px) {
+  .wrap4 {
+    img {
+      display: none;
+    }
+  }
+  .casetext {
+    display: none !important;
+  }
+  .aboutcard{
+    margin-top: 20px !important ; 
+  }
+}
+@media screen and (max-width: 890px) {
+  .blogcontainer {
+    .top{
+      .topcontainer{
+        width:100% !important;
+      }
+    }
+  
+  }
+  .cloudleft {
+    img {
+      width: 350px !important;
+    }
+  }
+  .cloudright {
+    width: auto;
+  }
+  .bestcardfour {
+    width: 100px !important;
+    height: 100px !important;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .cloudcontainer {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .casebottomone {
+    display: none !important;
+  }
+  .casebottom {
+    .casebottomtwo {
+      display: flex;
+      justify-content: center !important;
+      align-items: center !important;
+      margin-top: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer{
+    .left{
+      width: 70% !important;
+      margin-left: 55px;
+    
+    }
+    
+  }
+  .bottom{
+    .two{
+     .row{
+       .blogcard2{
+           transform: translateX(50px);
+       }
+     }
+   }
+  }
+  .aboutcard{
+    margin-top: 20px !important;
+  }
+  .leftpro{
+    transform: translateX(20px) !important;
+  }
+  .wrap2{
+    transform: translateX(-20px) !important;
+  }
+  .subsright {
+    img {
+      width: 350px !important;
+    }
+  }
+  .casebottomtwo {
+    img {
+      width: 350px !important;
+    }
+  }
+  .btnraptor {
+    width: 150px !important;
+    height: 40px !important;
+  }
+  .lefptorow {
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .mainheader {
+    h1 {
+      font-size: 44px !important;
+    }
+  }
+}
+/* styles.css */
+@media screen and (max-width: 768px) {
+  .top_nav .right ul {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 500px) {
+ 
+.commetcard{
+  .left{
+    img{
+      width: 150px !important;
+      padding-right: 50px !important;
+    }
+  }
+  .bottomone{
+    img{
+      margin-right: 10px !important;
+    }
+  }
+}
+}
+
+.dark {
+  .mainheader,
+  .bestseller,
+  .bestgaming,
+  .bestgamingmain,
+  .case {
+    background-color: white !important;
+    background: white !important;
+  }
+  .footer {
+    background-color: #fff !important;
+
+  }
+  .footer *{
+    color: black !important;
+  }
+  .login{
+    background-color: white !important;
+  }
+  .arrow{
+    border: 1px solid black !important;
+  }
+  .blogcard{
+    .blogbtn:hover{
+      color: black !important;
+      border-color: #2323f5 !important;
+      border-bottom-color: #6419cf !important;
+      border-right-color: #6419cf !important;
+      border-style: solid !important;
+    }
+  }
+  .wishcard , .cartpage{
+      background-color: white !important;
+      .tablewish{
+        background-color: red !important;
+      }
+  }
+  .wishcard *{
+    color: black !important;
+  }
+  .cartpage *{
+    color: black !important;
+  }
+  .shopcard .button-text{
+    color:white !important;
+  }
+  .products{
+    background-color: white !important;
+  }
+  .products *{
+    color: black !important;
+  }
+  .productdetails{
+    background-color: white !important;
+  }
+  .productdetails *{
+    color:black !important;
+  }
+  .brandcolor{
+    color: white !important;
+  }
+  .clock *{
+    color: white !important;
+  }
+  .buttons *{
+    color: white !important;
+  }
+  .blogcontainer{
+   
+    .pagination *{
+      color: black !important;
+    }
+    .blogbtn{
+      color: white !important;
+    }
+    background-color: white !important;
+  }
+  .blogcontainer *{
+    color: black !important;
+  }
+  .navigation {
+    a,
+    i {
+      color: black !important;
+    }
+    img {
+      background-color: black !important;
+      border-radius: 5px !important;
+    }
+  }
+  .bestseller * {
+    color: black;
+  }
+  .bestseller {
+    h1 {
+      color: black !important;
+    }
+  }
+  .subscribe {
+    background-color: black !important;
+  }
+  .mainheader {
+    h1 {
+      color: black !important;
+    }
+    .btn {
+      color: black;
+    }
+    background-image: url(../images/design-circle-1.png),
+    url(../images/design-circle-3.png),
+    url(//gaming-workdo.myshopify.com/cdn/shop/files/main-conent-games.png?v=1671440689) !important;
+  background-repeat: no-repeat !important;
+  background-position: center top, right, left bottom !important;
+  background-position-x: 300px, 0px, 500px !important;
+  background-position-y: 0, 170px, 500px !important;
+  }
+  .top{
+    .topcontainer{
+      color:red !important;
+    }
+  }
+  .blogdetails {
+  
+    background-color: white !important;
+  }
+  .blogdetails *{
+    color:#838383 !important;
+
+  }
+  .bestcardthree  {
+    h5 , p ,span{
+      color:black !important;
+    }
+    color: black !important;
+  }
+  .bestgamingmain{
+      background: rgb(255, 255, 255);
+  width: 100%;
+  // padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 65%,
+    rgba(0, 0, 0, 1) 35%
+  );
+    h1{
+      color: black !important;
+    }
+  }
+  .bestcardtwo{
+    h5{
+      color: black !important;
+    }
+   
+  }
+  .bestcard{
+    .card-brand{
+      color: black !important;
+    }
+    .cartbtn{
+      color:red !important;
+    }
+  }
+  .subscribe{
+    h1{
+      color: white !important;
+    }
+  }
+  .case{
+    .casetop{
+      h1 , .btnraptor{
+        color: black !important;
+      }
+   
+    }
+ 
+  }
+  .about , .comments {
+    background-color: white !important;
+  }
+  .about  *{
+    color: black !important;
+  }
+  .comments *{
+    color: black !important;
+  }
+  .faqpage{
+    background-color: white !important;
+    color: black !important;
+  }
+  .contactpage{
+    background-color: white !important;
+    color: black !important;
+  }
+  .nav {
+    background-color: rgb(13, 4, 63);
+  }
+  .nav *{
+    color: white !important;
+  }
+}
