@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1a7a4876.css",
+    "main.js": "/static/js/main.05351a46.js",
+    "static/media/design-circle-1.png": "/static/media/design-circle-1.e75ba13715af29c8c039.png",
+    "static/media/design-circle-4.png": "/static/media/design-circle-4.2c6899a77314493362d2.png",
+    "static/media/design-circle-5.png": "/static/media/design-circle-5.3b87edb14b9ac06fa667.png",
+    "static/media/design-circle-3.png": "/static/media/design-circle-3.f83726818c4d30775082.png",
+    "index.html": "/index.html",
+    "main.1a7a4876.css.map": "/static/css/main.1a7a4876.css.map",
+    "main.05351a46.js.map": "/static/js/main.05351a46.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a7a4876.css",
+    "static/js/main.05351a46.js"
+  ]
+}
